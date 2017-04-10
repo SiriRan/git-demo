@@ -29,7 +29,6 @@ min_age=18
 #max(df$age) #32757
 #min(df$age) # 5
 
-
 df=subset(df,age>min_age&age<max_age)
 
 stopifnot(max(df$age)<max_age)
